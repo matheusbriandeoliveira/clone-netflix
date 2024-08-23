@@ -25,6 +25,7 @@
   flex-direction: column;
   justify-content: center;
   width: 50%;
+  margin-top: 12rem;
 }
 
 .banner__poster {
@@ -41,6 +42,10 @@
 .banner__btn {
   margin-top: 2rem;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner__btn button {
   cursor: pointer;
 }
 

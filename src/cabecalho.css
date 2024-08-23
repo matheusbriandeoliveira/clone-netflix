@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin-top: 1.5rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.header__logo img {
+  width: 5.8rem;
+  cursor: pointer;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-left: 2rem;
+  flex-direction: row;
+  color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  align-items: center;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.header__menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu ul li {
+  padding-right: 0.9rem;
+  list-style: none;
+}
+
+.header__menu--left ul li:hover {
+  color: white;
+}
+
+.header__menu--right {
+  color: white;
+  font-size: 20px;
+}
+
+.header__menu--right ul li {
+  padding-right: 1.2rem;
+}
+
+.header__menu--right ul li:hover {
+  color: #bbb;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+.header__user img {
+  width: 2rem;
+  margin-right: 0.5rem;
+  border-radius: 3px;
+}
