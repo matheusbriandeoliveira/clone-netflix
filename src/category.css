@@ -10,6 +10,13 @@
   font-weight: 600;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
 section {
   width: 100%;
   position: relative;
@@ -21,6 +28,12 @@ section {
 .item {
   padding: 0 2px;
   transition: 250ms all;
+  cursor: pointer;
+}
+
+.-animation:hover {
+  margin: 0 40px;
+  transform: scale(1.2);
 }
 
 .item img {
