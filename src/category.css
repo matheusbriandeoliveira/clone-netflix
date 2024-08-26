@@ -1,0 +1,29 @@
+.category {
+  height: 200px;
+  margin-top: 5rem;
+}
+
+.category__title {
+  color: #e5e5e5e5;
+  font-size: 18px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+section {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 20px 0;
+}
+
+.item {
+  padding: 0 2px;
+  transition: 250ms all;
+}
+
+.item img {
+  max-width: 100%;
+  padding-right: 5px;
+}

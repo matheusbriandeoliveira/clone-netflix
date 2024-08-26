@@ -1,5 +1,6 @@
 @import url(/src/banner.css);
 @import url(/src/cabecalho.css);
+@import url(/src/category.css);
 * {
   padding: 0;
   margin: 0;
